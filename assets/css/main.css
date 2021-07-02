@@ -598,6 +598,7 @@ input, select, textarea {
 			padding: 0;
 		}
 
+
 /* Icon */
 
 	.icon {
@@ -606,20 +607,6 @@ input, select, textarea {
 		position: relative;
 	}
 
-		@media screen and (max-width: 736px) {
-
-            .icon .desktop {
-                display: none;
-    } 
-
-		}
-
-		@media screen and (max-width: 480px) {
-
-			.icon .desktop {
-				display: none;
-			}
-		}
 
 		.icon:before {
 			-moz-osx-font-smoothing: grayscale;
